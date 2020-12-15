@@ -237,10 +237,17 @@ return [
             'topnav' => true,
         ],
         [
-            'text' => 'Books',
+            'text' => 'Data Buku',
             'url'  => 'books',
             'icon' => 'fas fa-book',
         ],
+
+        [
+            'text' => 'Data Anggota',
+            'url'  => 'members',
+            'icon' => 'fa fa-users',
+        ],
+
 
         // [
         //     'text' => 'blog',

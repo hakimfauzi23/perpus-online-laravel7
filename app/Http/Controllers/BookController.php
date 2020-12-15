@@ -19,8 +19,7 @@ class BookController extends Controller
     {
         //
         $books = Book::sortable()->paginate(10);
-        return view('books.index', ['books' => $books]);
-        // return view('books.index');
+        return view('books.index', ['books' => $books]);    
     }
 
     /**
